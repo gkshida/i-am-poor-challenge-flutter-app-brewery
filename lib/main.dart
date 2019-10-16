@@ -14,8 +14,10 @@ class IAmPoorApp extends StatelessWidget {
         ),
         body: Center(
           child: Center(
-            child: AssetImage(
-              'images/money.png'
+            child: Image(
+              image: AssetImage(
+                'images/money.png'
+              ),
             ),
           ),
         ),
