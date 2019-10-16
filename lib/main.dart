@@ -6,7 +6,16 @@ class IAmPoorApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text('I Am Poor'),
+      home: Scaffold(
+        backgroundColor: Colors.brown,
+        appBar: AppBar(
+          title: Text('I Am Poor'),
+          backgroundColor: Colors.brown[900],
+        ),
+        body: Center(
+          child: Text('I Am Poor'),
+        ),
+      ),
     );
   }
 }
