@@ -13,7 +13,11 @@ class IAmPoorApp extends StatelessWidget {
           backgroundColor: Colors.brown[900],
         ),
         body: Center(
-          child: Text('I Am Poor'),
+          child: Center(
+            child: AssetImage(
+              'images/money.png'
+            ),
+          ),
         ),
       ),
     );
